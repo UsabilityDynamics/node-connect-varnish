@@ -26,13 +26,13 @@
     "node": ">=0.10.21"
   },
   "dependencies": {
-    "auto": "git+ssh://git@github.com:UsabilityDynamics/node-auto#master",
+    "auto": "UsabilityDynamics/node-auto",
     "commander": "~2.0.0",
     "lodash": "~2.2.1",
-    "advanced-require": "git+ssh://git@github.com:UsabilityDynamics/node-advanced-require#master",
-    "object-settings": "git+ssh://git@github.com:UsabilityDynamics/node-object-settings#master",
-    "object-emitter": "git+ssh://git@github.com:UsabilityDynamics/node-object-emitter#master",
-    "object-validation": "git+ssh://git@github.com:UsabilityDynamics/node-object-validation#master"
+    "advanced-require": "UsabilityDynamics/node-advanced-require",
+    "object-settings": "UsabilityDynamics/node-object-settings",
+    "object-emitter": "UsabilityDynamics/node-object-emitter",
+    "object-validation": "UsabilityDynamics/node-object-validation"
   },
   "devDependencies": {
     "grunt-contrib-symlink": "~0.2.0",
