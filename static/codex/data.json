@@ -1,0 +1,253 @@
+{
+    "project": {
+        "name": "connect-varnish",
+        "description": "Express Varnish middleware.",
+        "version": "0.1.0",
+        "url": "http://github.com/UsabilityDynamics/node-connect-varnish",
+        "logo": "http://media.usabilitydynamics.com/logo.png"
+    },
+    "files": {
+        "lib/common/utility.js": {
+            "name": "lib/common/utility.js",
+            "modules": {},
+            "classes": {
+                "Utility": 1
+            },
+            "fors": {
+                "Utility": 1
+            },
+            "namespaces": {}
+        },
+        "lib/connect-varnish.js": {
+            "name": "lib/connect-varnish.js",
+            "modules": {},
+            "classes": {
+                "connectVarnish": 1
+            },
+            "fors": {
+                "connectVarnish": 1
+            },
+            "namespaces": {}
+        }
+    },
+    "modules": {},
+    "classes": {
+        "Utility": {
+            "name": "Utility",
+            "shortname": "Utility",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "lib/common/utility.js",
+            "line": 1,
+            "description": "Utility Methods",
+            "is_constructor": 1
+        },
+        "connectVarnish": {
+            "name": "connectVarnish",
+            "shortname": "connectVarnish",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "lib/connect-varnish.js",
+            "line": 1,
+            "description": "Connect connectVarnish Middleware",
+            "params": [
+                {
+                    "name": "options",
+                    "description": "",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "requestHandler method.",
+                "type": "Function"
+            },
+            "is_constructor": 1,
+            "version": "0.1.0"
+        }
+    },
+    "classitems": [
+        {
+            "file": "lib/common/utility.js",
+            "line": 11,
+            "description": "Utility Properties.",
+            "class": "Utility"
+        },
+        {
+            "file": "lib/common/utility.js",
+            "line": 23,
+            "description": "Generate Slug.",
+            "params": [
+                {
+                    "name": "data",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "S|*"
+            },
+            "class": "Utility"
+        },
+        {
+            "file": "lib/common/utility.js",
+            "line": 37,
+            "description": "Placeholder Method",
+            "itemtype": "method",
+            "name": "noop",
+            "class": "Utility"
+        },
+        {
+            "file": "lib/connect-varnish.js",
+            "line": 27,
+            "description": "Middleware Application Instance.",
+            "itemtype": "property",
+            "name": "app",
+            "class": "connectVarnish"
+        },
+        {
+            "file": "lib/connect-varnish.js",
+            "line": 38,
+            "description": "Middleware Application Instance.",
+            "itemtype": "property",
+            "name": "options",
+            "class": "connectVarnish"
+        },
+        {
+            "file": "lib/connect-varnish.js",
+            "line": 49,
+            "description": "Event Emitter.",
+            "itemtype": "property",
+            "name": "options",
+            "class": "connectVarnish"
+        },
+        {
+            "file": "lib/connect-varnish.js",
+            "line": 60,
+            "description": "Parent Application Instance.",
+            "itemtype": "property",
+            "name": "parent",
+            "class": "connectVarnish"
+        },
+        {
+            "file": "lib/connect-varnish.js",
+            "line": 72,
+            "description": "Return Middleware Application Instance.",
+            "itemtype": "method",
+            "name": "requestHandler",
+            "class": "connectVarnish"
+        },
+        {
+            "file": "lib/connect-varnish.js",
+            "line": 83,
+            "description": "Varnish Client.",
+            "itemtype": "property",
+            "name": "varnishClient",
+            "class": "connectVarnish"
+        },
+        {
+            "file": "lib/connect-varnish.js",
+            "line": 102,
+            "description": "Purge Result.",
+            "todo": [
+                "Add purging for req.url."
+            ],
+            "class": "connectVarnish"
+        },
+        {
+            "file": "lib/connect-varnish.js",
+            "line": 152,
+            "description": "Instance Properties",
+            "class": "connectVarnish"
+        },
+        {
+            "file": "lib/connect-varnish.js",
+            "line": 158,
+            "description": "Middleware Application Instance.",
+            "itemtype": "property",
+            "name": "utility",
+            "class": "connectVarnish"
+        },
+        {
+            "file": "lib/connect-varnish.js",
+            "line": 169,
+            "description": "Constructor Properties",
+            "class": "connectVarnish"
+        },
+        {
+            "file": "lib/connect-varnish.js",
+            "line": 175,
+            "description": "Debug Method.",
+            "itemtype": "method",
+            "name": "debug",
+            "class": "connectVarnish"
+        },
+        {
+            "file": "lib/connect-varnish.js",
+            "line": 185,
+            "description": "Module Version.",
+            "itemtype": "method",
+            "name": "version",
+            "class": "connectVarnish"
+        },
+        {
+            "file": "lib/connect-varnish.js",
+            "line": 195,
+            "description": "Create Instance",
+            "class": "connectVarnish"
+        },
+        {
+            "file": "lib/connect-varnish.js",
+            "line": 208,
+            "description": "Default Options.",
+            "class": "connectVarnish"
+        }
+    ],
+    "warnings": [
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " lib/common/utility.js:23"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " lib/connect-varnish.js:1"
+        },
+        {
+            "message": "unknown tag: version",
+            "line": " lib/connect-varnish.js:1"
+        },
+        {
+            "message": "Missing item type\nUtility Properties.",
+            "line": " lib/common/utility.js:11"
+        },
+        {
+            "message": "Missing item type\nGenerate Slug.",
+            "line": " lib/common/utility.js:23"
+        },
+        {
+            "message": "Missing item type\nPurge Result.",
+            "line": " lib/connect-varnish.js:102"
+        },
+        {
+            "message": "Missing item type\nInstance Properties",
+            "line": " lib/connect-varnish.js:152"
+        },
+        {
+            "message": "Missing item type\nConstructor Properties",
+            "line": " lib/connect-varnish.js:169"
+        },
+        {
+            "message": "Missing item type\nCreate Instance",
+            "line": " lib/connect-varnish.js:195"
+        },
+        {
+            "message": "Missing item type\nDefault Options.",
+            "line": " lib/connect-varnish.js:208"
+        }
+    ]
+}

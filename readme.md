@@ -1,13 +1,6 @@
-Express Varnish middleware.
+### Start Varnish
+$ varnishd -a localhost:80 -T localhost:6082 -b 127.0.0.1:16000 -F
 
-## Getting Started
-Install the module with: `npm install connect-varnish`
-
-```javascript
-var connect_varnish = require('connect-varnish');
-connect_varnish.awesome(); // "awesome"
-```
-## Usage
 
 ## License
 
