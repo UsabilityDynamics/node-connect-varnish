@@ -1,7 +1,7 @@
 {
   "name": "connect-varnish",
   "description": "Express Varnish middleware.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "http://github.com/UsabilityDynamics/node-connect-varnish",
   "repository": {
     "url": "git@github.com:UsabilityDynamics/node-connect-varnish.git",
@@ -27,11 +27,13 @@
   },
   "dependencies": {
     "lodash": "~2.2.1",
-    "object-settings": "UsabilityDynamics/node-object-settings",
-    "object-emitter": "UsabilityDynamics/node-object-emitter",
-    "varnish-client": "UsabilityDynamics/node-varnish-client",
-    "express": "~3.4.7",
-    "string": "~1.7.0"
+    "object-emitter": "git://github.com/UsabilityDynamics/node-object-emitter#0.1.0",
+    "object-settings": "git://github.com/UsabilityDynamics/node-object-settings#0.1.2",
+    "varnish-client": "git://github.com/UsabilityDynamics/node-varnish-client#0.1.1",
+    "express": "~3.4.8",
+    "string": "~1.7.0",
+    "util": "~0.10.3",
+    "debug": "~0.7.4"
   },
   "devDependencies": {
     "grunt-contrib-symlink": "~0.2.0",
